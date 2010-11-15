@@ -1,0 +1,13 @@
+ap-dates
+========
+
+Adds an :ap Date Format for AP-Style dates.
+
+Example
+=======
+
+DateTime.parse("2010-02-02").to_formatted_s(:ap) =>  "Feb. 2, 2010"
+DateTime.parse("2010-03-02").to_formatted_s(:ap) =>  "March 2, 2010"
+
+
+Copyright (c) 2010 Michael D. Ivey, released under the MIT license
